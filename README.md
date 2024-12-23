@@ -38,7 +38,11 @@ Boolean Algebra is a branch of algebra that deals with boolean values—true and
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+
+Developed by: Pradhagini A RegisterNumber: 212224050031*/
+
+F1:
 
 ```
 module funct1(a,b,c,d,f1);
@@ -47,6 +51,8 @@ output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
 ```
+F2:
+
 ```
 module funct2(w,x,y,z,f2);
 input w,x,y,z;
@@ -55,19 +61,25 @@ assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 ```
 
-Developed by: Pradhagini A RegisterNumber: 212224050031*/
-
 **RTL**
 
+F1:
+
 ![Exp 2 f1 op](https://github.com/user-attachments/assets/d6468b25-179c-46ba-8c06-69ba1c8d6739)
+
+F2:
 
 ![exp2 f2 op](https://github.com/user-attachments/assets/dd9253a5-7c09-46d5-8727-f4d336128a7a)
 
 **Timing Diagram**
 
-![exp2 f1 wf](https://github.com/user-attachments/assets/cd74b453-df24-44c8-9d82-d44df40e6fad)
+F1:
 
-![exp2 f2 wf](https://github.com/user-attachments/assets/9970995c-de0b-4943-b3e1-762413061f57)
+![Screenshot 2024-12-23 085445](https://github.com/user-attachments/assets/f33d5504-33eb-4135-9d97-fa04a2c949ba)
+
+F2:
+
+![Screenshot 2024-12-23 090158](https://github.com/user-attachments/assets/d33e796c-62c7-4773-bc09-6dc78ed1bd13)
 
 **Result:**
 
